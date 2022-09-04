@@ -15,14 +15,14 @@ const arr =[
 // const smallNum = arr.filter(n => n.id< '20');
 
 
-// const na = arr.filter(nam => nam.name== 'ork');
+const na = arr.filter(nam => nam.name);
 
-// console.log(na);
+console.log(na);
 
 // // console.log(largeNum);
 // console.log(smallNum);
 
 
-const bigNum = arr.find(num => num.id>20);
+// const bigNum = arr.find(num => num.name);
 
-console.log(bigNum);
+// console.log(bigNum);

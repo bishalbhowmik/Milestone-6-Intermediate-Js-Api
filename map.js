@@ -1,14 +1,13 @@
+const arr =[
+    {name: 'Joy', id: 23, age: 24},
+    {name: 'ork', id: 5, age: 25},
+    {name: 'Toufiq', id: 26, age: 22},
+    {name: 'fairuz', id: 6, age: 30},
+    {name: 'ork', id: 40, age: 46},
+        
+    
+]
 
-const p =[1,3,5,2,3];
+const nam = arr.map(na => na.id);
 
-const q=[];
-
-doubleIt = n=>n*2;
-
-for(const x of p){
-    const r= doubleIt(x);
-    q.push(r);
-}
-
-
-console.log(q);
+console.log(nam);
