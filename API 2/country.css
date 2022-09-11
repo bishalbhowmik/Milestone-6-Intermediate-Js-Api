@@ -1,0 +1,12 @@
+#country {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.counrty {
+    font-size: 30px;
+    border: 2px solid rosybrown;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
